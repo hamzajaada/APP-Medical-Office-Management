@@ -1,7 +1,9 @@
 package Classes;
 // import java.io.Serializable;
 
-public class Medecine  {
+import java.io.Serializable;
+
+public class Medecine implements Serializable  {
 
     private long id;
 	private int version;

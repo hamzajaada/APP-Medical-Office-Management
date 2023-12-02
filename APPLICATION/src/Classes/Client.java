@@ -1,6 +1,8 @@
 package Classes;
 
-public class Client {
+import java.io.Serializable;
+
+public class Client implements Serializable {
     private long Id;
     private int Version;
 	private String Titre;

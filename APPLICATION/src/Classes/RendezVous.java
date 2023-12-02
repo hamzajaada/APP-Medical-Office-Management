@@ -1,8 +1,10 @@
 package Classes;
 
+import java.io.Serializable;
+
 // import java.io.Serializable;
 
-public class RendezVous{
+public class RendezVous implements Serializable{
 	
     private long id;
 	private String jour;

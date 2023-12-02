@@ -1,8 +1,10 @@
 package Classes;
 
-// import java.io.Serializable;
+import java.io.Serializable;
 
-public class Creneau {
+import java.io.Serializable;
+
+public class Creneau implements Serializable{
 	// private static final long serialVersionUID = 2L;
 	
 	private long id;
