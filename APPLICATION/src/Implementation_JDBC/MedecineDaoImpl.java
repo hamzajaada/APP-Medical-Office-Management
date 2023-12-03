@@ -53,6 +53,7 @@ public class MedecineDaoImpl implements MedecineDao{
     }
 
     @Override
+   
     public void updateMedecin(Medecine M) {
         String req = "UPDATE Medecines SET version=?,titre=?,nom=?,prenom=? WHERE id=?";
 		try {

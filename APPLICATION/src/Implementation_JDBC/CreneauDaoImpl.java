@@ -74,7 +74,7 @@ public class CreneauDaoImpl implements CreneauDao {
     }
 
     @Override
-    public void removeCreneau(long id_client) {
+    public long removeCreneau(long id_client) {
         String req = "DELETE FROM Creneaux WHERE id=?";
 		try {
 			stm = con.prepareStatement(req);
